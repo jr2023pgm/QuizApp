@@ -14,6 +14,7 @@
 		2B8482282A5A796F00DC8164 /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8482272A5A796F00DC8164 /* QuizAppTests.swift */; };
 		2B8482322A5A796F00DC8164 /* QuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8482312A5A796F00DC8164 /* QuizAppUITests.swift */; };
 		2B8482342A5A796F00DC8164 /* QuizAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8482332A5A796F00DC8164 /* QuizAppUITestsLaunchTests.swift */; };
+		2B8482412A5A7B3E00DC8164 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8482402A5A7B3E00DC8164 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2B84822D2A5A796F00DC8164 /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8482312A5A796F00DC8164 /* QuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITests.swift; sourceTree = "<group>"; };
 		2B8482332A5A796F00DC8164 /* QuizAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B8482402A5A7B3E00DC8164 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				2B8482182A5A796E00DC8164 /* ContentView.swift */,
 				2B84821A2A5A796F00DC8164 /* Assets.xcassets */,
 				2B84821C2A5A796F00DC8164 /* Preview Content */,
+				2B8482402A5A7B3E00DC8164 /* Question.swift */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8482412A5A7B3E00DC8164 /* Question.swift in Sources */,
 				2B8482192A5A796E00DC8164 /* ContentView.swift in Sources */,
 				2B8482172A5A796E00DC8164 /* QuizAppApp.swift in Sources */,
 			);
